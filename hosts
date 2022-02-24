@@ -1,0 +1,11 @@
+[my_hosts]
+localhost ansible_connection=local ansible_user=ubuntu
+
+[dev]
+10.128.0.81 ansible_connection=ssh ansible_user=root
+
+[qa]
+10.128.0.113 ansible_connection=ssh ansible_user=root
+
+[prod]
+10.128.0.118 ansible_connection=ssh ansible_user=root
